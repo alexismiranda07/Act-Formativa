@@ -19,5 +19,6 @@ from secondApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('huevo/', views.video), 
+    path('huevo/', views.video),
+    path('secreto/', views.video),  
 ]
